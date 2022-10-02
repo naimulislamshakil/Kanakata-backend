@@ -39,6 +39,8 @@ mongoose
 		console.log(err);
 	});
 
+	console.log(process.env.MONGOOSE);
+
 // Show "/" route
 app.use('/', hellowRouter);
 app.use('/api/v1/product', productRoute);
